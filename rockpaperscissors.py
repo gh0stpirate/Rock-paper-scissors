@@ -20,7 +20,7 @@ mychoice = input()
 
 #input check/translator
 #checkinput() function should start here.
-if mychoice != "r" or "p" or "s":
+if mychoice != "r" or "p" or "s" or "q":
     print("Invalid input.")
     print("Please input either 'r','p' or 's' input 'q' to quit.")
     mychoice = input()
